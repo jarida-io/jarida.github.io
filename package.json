@@ -1,6 +1,6 @@
 {
   "name": "jarida-website",
-  "homepage": "jarida.github.io",
+  "homepage": "/",
   "private": true,
   "version": "1.0.0",
   "type": "module",
