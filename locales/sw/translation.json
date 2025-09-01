@@ -1,0 +1,162 @@
+{
+  "nav": {
+    "home": "Nyumbani",
+    "about": "Kuhusu",
+    "projects": "Miradi",
+    "community": "Jumuiya",
+    "resources": "Rasilimali",
+    "contact": "Mawasiliano",
+    "language": "Lugha"
+  },
+  "hero": {
+    "title": "Kuongeza Nguvu za Ubunifu wa Teknolojia Afrika",
+    "subtitle": "Kujenga mustakabali kupitia masuluhisho ya chanzo huria na jumuiya za wasanidi programu duniani",
+    "description": "Jarida inaunganisha talanta za teknolojia za Afrika na fursa za kimataifa, ikihimiza ubunifu kupitia miradi ya ushirikiano wa chanzo huria inayosuluhisha matatizo halisi ya ulimwengu.",
+    "cta": {
+      "primary": "Jiunge na Jumuiya Yetu",
+      "secondary": "Chunguza Miradi"
+    }
+  },
+  "about": {
+    "title": "Dhamira Yetu",
+    "subtitle": "Kuunganisha Afrika na Teknolojia ya Kimataifa",
+    "description": "Jarida ni zaidi ya jukwaa—ni harakati. Tunaamini nguvu za ubunifu wa Afrika kubadilisha ulimwengu, na tumejitolea kutoa zana, jumuiya, na fursa za kufanya hivyo.",
+    "values": {
+      "innovation": {
+        "title": "Ubunifu wa Kwanza",
+        "description": "Tunaweka kipaumbele masuluhisho ya kisasa yanayoshughulikia changamoto za ulimwengu halisi"
+      },
+      "community": {
+        "title": "Kuendeshwa na Jumuiya",
+        "description": "Kila mradi unajengwa na na kwa ajili ya jumuiya ya wasanidi programu"
+      },
+      "impact": {
+        "title": "Athari ya Kimataifa",
+        "description": "Masuluhisho ya ndani yenye uwezo wa kubadilisha viwanda duniani kote"
+      },
+      "open": {
+        "title": "Chanzo Huria",
+        "description": "Maendeleo ya uwazi na ushirikiano kwa athari na imani kubwa zaidi"
+      }
+    }
+  },
+  "projects": {
+    "title": "Miradi Iliyoonyeshwa",
+    "subtitle": "Masuluhisho ya Chanzo Huria Yanayofanya Tofauti",
+    "ksl": {
+      "title": "Kitafsiri cha Lugha ya Ishara ya Kikenia",
+      "description": "Kuvunja vikwazo vya mawasiliano kwa kutumia teknolojia ya akili bandia kutafsiri lugha ya ishara kwa jamii ya viziwi wa Kenya.",
+      "technologies": ["Python", "TensorFlow", "OpenCV", "React"],
+      "status": "Maendeleo Yanayoendelea",
+      "impact": "Watumiaji 10,000+ wanaowezekana"
+    },
+    "healthcare": {
+      "title": "Muunganiko wa Huduma za Afya za Vijijini",
+      "description": "Jukwaa la telemedicine linalounganisha jamii za vijijini na wataalamu wa huduma za afya kote Afrika.",
+      "technologies": ["React", "Node.js", "WebRTC", "MongoDB"],
+      "status": "Katika Beta",
+      "impact": "Kliniki 50+ zimeunganishwa"
+    },
+    "education": {
+      "title": "Kituo cha Kujifunza cha Kidijitali",
+      "description": "Jukwaa la kielimu la kwanza bila mtandao kwa maeneo yenye muunganiko mdogo wa intaneti.",
+      "technologies": ["PWA", "Vue.js", "IndexedDB", "Python"],
+      "status": "Kupanga",
+      "impact": "Wanafunzi 1,000+ wanaolengwa"
+    },
+    "cta": "Ona Miradi Yote"
+  },
+  "community": {
+    "title": "Jiunge na Jumuiya Yetu ya Kimataifa",
+    "subtitle": "Unganisha, Shirikiana, Unda",
+    "description": "Kuwa sehemu ya mazingira endelevu ya wasanidi programu, wabunifu, na wavumbuzi wanaofanya kazi pamoja kutatua changamoto kubwa za Afrika.",
+    "stats": {
+      "developers": "Wasanidi Programu Hai",
+      "projects": "Miradi ya Chanzo Huria",
+      "countries": "Nchi Zilizowakiliwa",
+      "contributions": "Michango ya Msimbo"
+    },
+    "values": [
+      {
+        "title": "Ubunifu wa Kijumuishi",
+        "description": "Tunakaribishwa wachangiaji kutoka mazingira yote na viwango vya ujuzi"
+      },
+      {
+        "title": "Kushiriki Ujuzi",
+        "description": "Kujifunza pamoja kupitia ushauri na ushirikiano"
+      },
+      {
+        "title": "Athari Halisi",
+        "description": "Kila mstari wa msimbo unachangia masuluhisho yenye maana"
+      }
+    ],
+    "cta": "Jiunge Nasi"
+  },
+  "resources": {
+    "title": "Rasilimali za Wasanidi Programu",
+    "subtitle": "Kila kitu unachohitaji kuchangia",
+    "documentation": {
+      "title": "Nyaraka",
+      "description": "Miongozo kamili na marejeleo ya API kwa miradi yote"
+    },
+    "tutorials": {
+      "title": "Mafunzo",
+      "description": "Miongozo ya hatua kwa hatua kwa wachangiaji na wasanidi programu wapya"
+    },
+    "blog": {
+      "title": "Blogu ya Teknolojia",
+      "description": "Maarifa, hadithi, na masasisho kutoka mazingira ya teknolojia ya Afrika"
+    },
+    "apis": {
+      "title": "APIs & SDKs",
+      "description": "Zana za wasanidi programu na maktaba za kujenga kwenye jukwaa letu"
+    }
+  },
+  "contact": {
+    "title": "Wasiliana Nasi",
+    "subtitle": "Uko tayari kufanya athari?",
+    "description": "Iwe wewe ni msanidi programu, shirika, au una shauku tu kuhusu ubunifu wa teknolojia ya Afrika, tungependa kusikia kutoka kwako.",
+    "form": {
+      "name": "Jina Kamili",
+      "email": "Anwani ya Barua Pepe",
+      "message": "Ujumbe Wako",
+      "send": "Tuma Ujumbe",
+      "sending": "Inatuma...",
+      "success": "Ujumbe umetumwa kwa mafanikio!",
+      "error": "Imeshindwa kutuma ujumbe. Tafadhali jaribu tena."
+    },
+    "info": {
+      "email": "hello@jarida.dev",
+      "location": "Nairobi, Kenya & Kimataifa Kwa Mbali",
+      "response": "Kwa kawaida tunajibu ndani ya masaa 24"
+    }
+  },
+  "footer": {
+    "tagline": "Kuongeza nguvu za ubunifu wa teknolojia ya Afrika kupitia ushirikiano wa chanzo huria",
+    "links": {
+      "about": "Kuhusu Sisi",
+      "projects": "Miradi",
+      "community": "Jumuiya",
+      "blog": "Blogu",
+      "contact": "Mawasiliano",
+      "github": "GitHub",
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn"
+    },
+    "copyright": "© 2024 Jarida. Haki zote zimehifadhiwa.",
+    "madeWith": "Imefanywa kwa ❤️ Afrika kwa ajili ya Ulimwengu"
+  },
+  "common": {
+    "loading": "Inapakia...",
+    "error": "Kitu kimekwenda vibaya",
+    "retry": "Jaribu Tena",
+    "learnMore": "Jifunze Zaidi",
+    "getStarted": "Anza",
+    "viewProject": "Ona Mradi",
+    "contribute": "Changia",
+    "readMore": "Soma Zaidi",
+    "back": "Rudi",
+    "next": "Ijayo",
+    "previous": "Iliyopita"
+  }
+}
