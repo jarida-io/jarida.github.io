@@ -1,6 +1,6 @@
 {
   "name": "jarida-website",
-  "homepage": "https://jarida-io.github.io/",
+  "homepage": "https://jarida.github.io/",
   "private": false,
   "version": "1.0.0",
   "type": "module",
@@ -11,7 +11,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d build -r https://github.com/jarida-io/jarida-io.github.io.git"
+  "deploy": "gh-pages -d build -r https://github.com/jarida-io/jarida.github.io.git"
   },
   "dependencies": {
     "framer-motion": "^11.3.24",
