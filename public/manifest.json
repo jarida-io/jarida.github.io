@@ -1,0 +1,27 @@
+{
+  "name": "Jarida - African Tech Innovation",
+  "short_name": "Jarida",
+  "description": "Empowering African tech innovation through open-source solutions and global developer communities",
+  "start_url": "/jarida/",
+  "display": "standalone",
+  "background_color": "#fff9f9",
+  "theme_color": "#8C52FF",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/jarida/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/jarida/images/jarida_logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["technology", "developer", "open-source"],
+  "lang": "en",
+  "dir": "ltr"
+}

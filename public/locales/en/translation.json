@@ -1,0 +1,162 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "community": "Community",
+    "resources": "Resources",
+    "contact": "Contact",
+    "language": "Language"
+  },
+  "hero": {
+    "title": "Empowering African Tech Innovation",
+    "subtitle": "Building the future through open-source solutions and global developer communities",
+    "description": "Jarida connects African tech talent with global opportunities, fostering innovation through collaborative open-source projects that solve real-world problems.",
+    "cta": {
+      "primary": "Join Our Community",
+      "secondary": "Explore Projects"
+    }
+  },
+  "about": {
+    "title": "Our Mission",
+    "subtitle": "Bridging Africa and Global Tech",
+    "description": "Jarida is more than a platform—it's a movement. We believe in the power of African innovation to transform the world, and we're committed to providing the tools, community, and opportunities to make it happen.",
+    "values": {
+      "innovation": {
+        "title": "Innovation First",
+        "description": "We prioritize cutting-edge solutions that address real-world challenges"
+      },
+      "community": {
+        "title": "Community Driven",
+        "description": "Every project is built by and for the developer community"
+      },
+      "impact": {
+        "title": "Global Impact",
+        "description": "Local solutions with the potential to transform industries worldwide"
+      },
+      "open": {
+        "title": "Open Source",
+        "description": "Transparent, collaborative development for maximum impact and trust"
+      }
+    }
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "Open-Source Solutions Making a Difference",
+    "ksl": {
+      "title": "Kenyan Sign Language Translator",
+      "description": "Breaking down communication barriers with AI-powered sign language translation for the Kenyan deaf community.",
+      "technologies": ["Python", "TensorFlow", "OpenCV", "React"],
+      "status": "Active Development",
+      "impact": "10,000+ potential users"
+    },
+    "healthcare": {
+      "title": "Rural Healthcare Connect",
+      "description": "Telemedicine platform connecting rural communities with healthcare professionals across Africa.",
+      "technologies": ["React", "Node.js", "WebRTC", "MongoDB"],
+      "status": "In Beta",
+      "impact": "50+ clinics connected"
+    },
+    "education": {
+      "title": "Digital Learning Hub",
+      "description": "Offline-first educational platform for areas with limited internet connectivity.",
+      "technologies": ["PWA", "Vue.js", "IndexedDB", "Python"],
+      "status": "Planning",
+      "impact": "1,000+ students targeted"
+    },
+    "cta": "View All Projects"
+  },
+  "community": {
+    "title": "Join Our Global Community",
+    "subtitle": "Connect, Collaborate, Create",
+    "description": "Be part of a vibrant ecosystem of developers, designers, and innovators working together to solve Africa's biggest challenges.",
+    "stats": {
+      "developers": "Active Developers",
+      "projects": "Open Source Projects",
+      "countries": "Countries Represented",
+      "contributions": "Code Contributions"
+    },
+    "values": [
+      {
+        "title": "Inclusive Innovation",
+        "description": "We welcome contributors from all backgrounds and skill levels"
+      },
+      {
+        "title": "Knowledge Sharing",
+        "description": "Learning together through mentorship and collaboration"
+      },
+      {
+        "title": "Real Impact",
+        "description": "Every line of code contributes to meaningful solutions"
+      }
+    ],
+    "cta": "Get Involved"
+  },
+  "resources": {
+    "title": "Developer Resources",
+    "subtitle": "Everything you need to contribute",
+    "documentation": {
+      "title": "Documentation",
+      "description": "Comprehensive guides and API references for all projects"
+    },
+    "tutorials": {
+      "title": "Tutorials",
+      "description": "Step-by-step guides for new contributors and developers"
+    },
+    "blog": {
+      "title": "Tech Blog",
+      "description": "Insights, stories, and updates from the African tech ecosystem"
+    },
+    "apis": {
+      "title": "APIs & SDKs",
+      "description": "Developer tools and libraries for building on our platform"
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Ready to make an impact?",
+    "description": "Whether you're a developer, organization, or simply passionate about African tech innovation, we'd love to hear from you.",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "message": "Your Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully!",
+      "error": "Failed to send message. Please try again."
+    },
+    "info": {
+      "email": "hello@jarida.dev",
+      "location": "Nairobi, Kenya & Global Remote",
+      "response": "We typically respond within 24 hours"
+    }
+  },
+  "footer": {
+    "tagline": "Empowering African tech innovation through open-source collaboration",
+    "links": {
+      "about": "About Us",
+      "projects": "Projects",
+      "community": "Community",
+      "blog": "Blog",
+      "contact": "Contact",
+      "github": "GitHub",
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn"
+    },
+    "copyright": "© 2024 Jarida. All rights reserved.",
+    "madeWith": "Made with ❤️ in Africa for the World"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Try Again",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "viewProject": "View Project",
+    "contribute": "Contribute",
+    "readMore": "Read More",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous"
+  }
+}

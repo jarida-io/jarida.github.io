@@ -1,0 +1,258 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Jarida Brand CSS Custom Properties */
+:root {
+  /* Jarida Brand Colors (EXACT VALUES) */
+  --jarida-purple: #8C52FF;
+  --jarida-charcoal: #171616;
+  --jarida-white: #fff9f9;
+  --light-grey: #F5F5F5;
+  --accent-white: #FFFFFF;
+  
+  /* Light Mode Semantic Variables */
+  --color-primary: var(--jarida-purple);
+  --color-text-primary: var(--jarida-charcoal);
+  --color-text-secondary: #4a4a4a;
+  --color-text-on-dark: var(--jarida-white);
+  --color-background-primary: var(--accent-white);
+  --color-background-secondary: var(--light-grey);
+  --color-border: rgba(23, 22, 22, 0.1);
+  
+  /* Typography Scale */
+  --font-primary: 'Comfortaa', cursive;
+  --font-body: 'Inter', sans-serif;
+  --font-accent: 'Quicksand', sans-serif;
+}
+
+/* Dark Mode Variables */
+[data-theme="dark"] {
+  --color-text-primary: var(--jarida-white);
+  --color-text-secondary: #b0b0b0;
+  --color-text-on-dark: var(--jarida-white);
+  --color-background-primary: var(--jarida-charcoal);
+  --color-background-secondary: #2a2a2a;
+  --color-border: rgba(255, 249, 249, 0.1);
+}
+
+/* Base Typography */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: var(--font-body);
+    color: var(--color-text-primary);
+    background-color: var(--color-background-primary);
+    line-height: 1.6;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  /* Headings use Comfortaa for primary brand presence */
+  h1, h2, h3 {
+    font-family: var(--font-primary);
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: var(--color-text-primary);
+  }
+  
+  /* Secondary headings use Quicksand for accent */
+  h4, h5, h6 {
+    font-family: var(--font-accent);
+    font-weight: 600;
+    line-height: 1.4;
+    color: var(--color-text-primary);
+  }
+  
+  /* Paragraph and text consistency */
+  p, span, div {
+    color: var(--color-text-primary);
+  }
+  
+  /* Secondary text */
+  .text-secondary {
+    color: var(--color-text-secondary);
+  }
+  
+  /* Ensure WCAG AA contrast ratios (4.5:1 minimum) */
+  .text-on-light {
+    color: var(--jarida-charcoal);
+  }
+  
+  .text-on-dark {
+    color: var(--jarida-white);
+  }
+  
+  .text-on-purple {
+    color: var(--accent-white);
+  }
+}
+
+/* Component Layer */
+@layer components {
+  /* Jarida Button System */
+  .btn-jarida {
+    @apply px-6 py-3 rounded-lg font-quicksand font-semibold transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+  
+  .btn-primary {
+    @apply btn-jarida bg-jarida-purple text-white hover:bg-purple-600 focus:ring-jarida-purple shadow-jarida hover:shadow-jarida-lg;
+  }
+  
+  .btn-secondary {
+    @apply btn-jarida bg-transparent text-jarida-purple border-2 border-jarida-purple hover:bg-jarida-purple hover:text-white focus:ring-jarida-purple;
+  }
+  
+  .btn-charcoal {
+    @apply btn-jarida bg-jarida-charcoal text-white hover:bg-charcoal-800 focus:ring-jarida-charcoal;
+  }
+  
+  /* Ensure white text on colored backgrounds */
+  .btn-white-bg {
+    @apply btn-jarida bg-white text-jarida-purple hover:bg-gray-50 focus:ring-jarida-purple shadow-jarida;
+  }
+  
+  .btn-white-outline {
+    @apply btn-jarida bg-transparent text-white border-2 border-white hover:bg-white hover:text-jarida-purple focus:ring-white;
+  }
+  
+  /* Card Components */
+  .card-jarida {
+    @apply bg-color-background-primary rounded-xl shadow-lg hover:shadow-jarida transition-all duration-300 border border-color-border;
+  }
+  
+  /* Section Padding */
+  .section-padding {
+    @apply py-16 sm:py-20 lg:py-24;
+  }
+  
+  .container-jarida {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  /* Solid Backgrounds */
+  .bg-jarida {
+    background: var(--jarida-purple);
+  }
+  
+  .bg-charcoal {
+    background: var(--jarida-charcoal);
+  }
+  
+  /* Animation Classes */
+  .animate-fade-in-up {
+    animation: fadeInUp 0.6s ease-out forwards;
+  }
+  
+  .animate-fade-in-left {
+    animation: fadeInLeft 0.6s ease-out forwards;
+  }
+  
+  .animate-fade-in-right {
+    animation: fadeInRight 0.6s ease-out forwards;
+  }
+  
+  /* Hover Effects */
+  .hover-lift {
+    @apply transition-transform duration-300 hover:transform hover:-translate-y-2;
+  }
+  
+  .hover-glow {
+    @apply transition-all duration-300 hover:shadow-jarida-lg;
+  }
+}
+
+/* Utilities Layer */
+@layer utilities {
+  /* Custom Focus States */
+  .focus-jarida {
+    @apply focus:outline-none focus:ring-2 focus:ring-jarida-purple focus:ring-offset-2;
+  }
+  
+  /* Text Selection */
+  .selection-jarida {
+    @apply selection:bg-jarida-purple selection:text-accent-white;
+  }
+  
+  /* Scrollbar Styling */
+  .scrollbar-jarida::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .scrollbar-jarida::-webkit-scrollbar-track {
+    background: var(--light-grey);
+  }
+  
+  .scrollbar-jarida::-webkit-scrollbar-thumb {
+    background: var(--jarida-purple);
+    border-radius: 4px;
+  }
+  
+  .scrollbar-jarida::-webkit-scrollbar-thumb:hover {
+    background: #7c3aed;
+  }
+}
+
+/* Custom Keyframes */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  .hover:transform {
+    transform: none !important;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  
+  body {
+    color: black !important;
+    background: white !important;
+  }
+}
